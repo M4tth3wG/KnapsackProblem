@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Exceptions">
+      <UniqueIdentifier>{cfe2d42e-3a55-47c7-8bd0-808c6eeeca6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\TestFiles">
+      <UniqueIdentifier>{9586c73d-204a-46c2-9553-9d90edb05626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\ProblemFiles">
+      <UniqueIdentifier>{dd952aba-8208-4698-a2e9-44d25383534c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TEP_Lab_Knapsack_Projekt.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="KnapsackProblem.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneticAlgorithm.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Individual.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Randomizer.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KnapsackProblem.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneticAlgorithm.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Individual.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="invalidItemSizeException.h">
+      <Filter>Pliki nagłówkowe\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="invalidItemValueException.h">
+      <Filter>Pliki nagłówkowe\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="invalidKnapsackCapacityException.h">
+      <Filter>Pliki nagłówkowe\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="invalidNumberOfArgumentsException.h">
+      <Filter>Pliki nagłówkowe\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="invalidGeneticAlgorithmPopulationSizeException.h">
+      <Filter>Pliki nagłówkowe\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="invalidKnapsackNumberOfItemsException.h">
+      <Filter>Pliki nagłówkowe\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="invalidGeneticAlgorithmStopClauseException.h">
+      <Filter>Pliki nagłówkowe\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="invalidGeneticAlgorithmCrossProbabilityException.h">
+      <Filter>Pliki nagłówkowe\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="invalidGeneticAlgorithmMutateProbabilityException.h">
+      <Filter>Pliki nagłówkowe\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="geneticAlgorithmBestResaultNotCalculatedException.h">
+      <Filter>Pliki nagłówkowe\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="fileNotFoundException.h">
+      <Filter>Pliki nagłówkowe\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Randomizer.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test4.txt">
+      <Filter>Pliki źródłowe\TestFiles</Filter>
+    </Text>
+    <Text Include="test3.txt">
+      <Filter>Pliki źródłowe\TestFiles</Filter>
+    </Text>
+    <Text Include="test2.txt">
+      <Filter>Pliki źródłowe\TestFiles</Filter>
+    </Text>
+    <Text Include="test1.txt">
+      <Filter>Pliki źródłowe\TestFiles</Filter>
+    </Text>
+    <Text Include="test8.txt">
+      <Filter>Pliki źródłowe\TestFiles</Filter>
+    </Text>
+    <Text Include="test7.txt">
+      <Filter>Pliki źródłowe\TestFiles</Filter>
+    </Text>
+    <Text Include="test6.txt">
+      <Filter>Pliki źródłowe\TestFiles</Filter>
+    </Text>
+    <Text Include="test5.txt">
+      <Filter>Pliki źródłowe\TestFiles</Filter>
+    </Text>
+    <Text Include="test9.txt">
+      <Filter>Pliki źródłowe\TestFiles</Filter>
+    </Text>
+    <Text Include="test10.txt">
+      <Filter>Pliki źródłowe\TestFiles</Filter>
+    </Text>
+    <Text Include="problem.txt">
+      <Filter>Pliki źródłowe\ProblemFiles</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="knapPI_1_100_1000_1">
+      <Filter>Pliki źródłowe\ProblemFiles</Filter>
+    </None>
+    <None Include="knapPI_1_10000_1000_1">
+      <Filter>Pliki źródłowe\ProblemFiles</Filter>
+    </None>
+  </ItemGroup>
+</Project>
